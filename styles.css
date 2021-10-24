@@ -1,0 +1,106 @@
+/* Larissa López - Quinto B*/
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{ /*Cuerpo*/
+  background-image: linear-gradient(to right,  #e7fcf8 10%, #fdfdee 90%);
+  font-family: 'Baloo Tamma 2', arial;
+  margin-bottom: 20px;
+}
+h1{ /*Titulo 1*/
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #9a4d8f;
+  font-weight: 60px;
+  font-size: 40px;
+}
+h2{ /*Titulo 2*/
+  text-align: center;
+  color: #9a4d8f;
+  font-weight: 80px;
+  border-bottom: 2px  #9a4d8f solid;
+  margin-bottom: 10px; 
+}
+/*CONTENEDOR*/
+.grid-container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    margin-top: 0.1px;
+}
+/*FORMULARIO*/
+form { 
+  margin-top: 1px;
+    border: 0px;
+    padding: 20px;
+    font-size: 20px;
+    width: 26em;
+    border: 3px solid #97d8f1;
+    box-shadow: 5px 10px #daf3fd;
+}
+  .form1{
+ margin-right: 20px;
+ margin-left: 180px;
+ margin-top: 20px;
+ background: #cdf7ff;
+ border-radius: 5px;
+
+}
+  .form2{
+    margin-top: 20px;
+    margin-right: 190px;
+    margin-left: 20px;
+    background: #cdf7ff;
+    border-radius: 5px;
+}
+/*BOTONES*/
+.boton1{
+    background: #876691;
+    border: 1px solid #876691;
+    color: #ffff;
+    width: 150px;
+    height: 40px;
+    margin-left: 188px;
+    font-weight: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.boton2{
+  background: #876691;
+  border: 1px solid #876691;
+  color: #ffff;
+  width: 150px;
+  height: 40px;
+  margin-left: 185px;
+  margin-top: 20px;
+  font-weight: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+/*INGRESO*/
+.ingreso1{
+  margin-left: 170px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #876691;
+  border-radius: 5px; 
+}
+.ingreso2{
+  margin-left: 155px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid #876691;
+}
+/*FOOTER*/
+.footer {
+  margin-top: 10px;
+  padding: 1%;
+  margin-left: 600px;
+  color:  #876691;
+}
